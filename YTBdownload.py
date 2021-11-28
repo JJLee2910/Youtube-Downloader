@@ -26,5 +26,5 @@ def videoDownload():
     Label(root, text='Downloaded', font='arial 15').place(x=180, y=210)
 
 
-Button(root, text='DOWNLOAD', font='arial 15 bold', bg='sky blue', padx=2, command=videoDownload).place(x=180, y=150)
+Button(root, text='DOWNLOAD', font='arial 15 bold', bg='sky blue', padx=2, command=videoDownload).place(x=200, y=150)
 root.mainloop()
